@@ -1,0 +1,11 @@
+{
+  "id": "YousifMod",
+  "name": "The Yousif Mod",
+  "author": "Weabonie",
+  "description": "A set of fanmade card packs based on inside-jokes.",
+  "version": "v0.0.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": true
+}

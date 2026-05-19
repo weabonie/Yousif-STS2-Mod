@@ -1,0 +1,4 @@
+{
+  "-DEVOUR_CARD.title": "Devour",
+  "-DEVOUR_CARD.description": "Whenever an Attack deals unblocked damage, heal {Heal:diff()} HP.\nYou can no longer gain [gold]Block[/gold] from cards."
+}
