@@ -4,9 +4,9 @@
   "YOUSIFMOD-DEVOUR_POWER.smartDescription": "Whenever you deal unblocked attack damage, heal [blue]{Amount}[/blue] HP.",
 
   "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.title": "No Block",
-  "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.description": "You cannot gain Block for this combat.",
-  "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.smartDescription": "You cannot gain Block for this combat.",
+  "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.description": "You cannot gain [gold]Block[/gold] this combat.",
+  "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.smartDescription": "You cannot gain [gold]Block[/gold] this combat.",
 
   "NoBlockPower.name": "No Block",
-  "NoBlockPower.description": "You cannot gain Block for this combat."
+  "NoBlockPower.description": "You cannot gain [gold]Block[/gold] this combat."
 }

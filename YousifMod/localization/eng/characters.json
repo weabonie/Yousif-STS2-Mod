@@ -1,0 +1,16 @@
+{
+  "YOUSIFMOD-YOUSIF_CHARACTER.aromaPrinciple": "Lore",
+  "YOUSIFMOD-YOUSIF_CHARACTER.banter.alive.endTurnPing": "Co-op hurry up end turn ping message",
+  "YOUSIFMOD-YOUSIF_CHARACTER.banter.dead.endTurnPing": "...",
+  "YOUSIFMOD-YOUSIF_CHARACTER.cardsModifierDescription": "__ cards will now appear in rewards and shops.",
+  "YOUSIFMOD-YOUSIF_CHARACTER.cardsModifierTitle": "__ Cards",
+  "YOUSIFMOD-YOUSIF_CHARACTER.description": "Character Selection\nScreen Description",
+  "YOUSIFMOD-YOUSIF_CHARACTER.eventDeathPrevention": "Co-op survival line",
+  "YOUSIFMOD-YOUSIF_CHARACTER.goldMonologue": "Line spoken when obtaining a large amount of gold",
+  "YOUSIFMOD-YOUSIF_CHARACTER.possessiveAdjective": "his/her/its",
+  "YOUSIFMOD-YOUSIF_CHARACTER.pronounObject": "him/her/it",
+  "YOUSIFMOD-YOUSIF_CHARACTER.pronounPossessive": "his/hers/its",
+  "YOUSIFMOD-YOUSIF_CHARACTER.pronounSubject": "he/she/it",
+  "YOUSIFMOD-YOUSIF_CHARACTER.title": "Yousif Saieb",
+  "YOUSIFMOD-YOUSIF_CHARACTER.titleObject": "Yousif Saieb"
+}

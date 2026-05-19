@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctyc1simh46rh"
-path="res://.godot/imported/devour_power.png-183ac1c650b3c4bd2b1f870f6c18e018.ctex"
+path="res://.godot/imported/devour_power.png-00d771b05b34a2dd9c071ade81151b49.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FirstMod/images/powers/big/devour_power.png"
-dest_files=["res://.godot/imported/devour_power.png-183ac1c650b3c4bd2b1f870f6c18e018.ctex"]
+source_file="res://YousifMod/images/powers/big/devour_power.png"
+dest_files=["res://.godot/imported/devour_power.png-00d771b05b34a2dd9c071ade81151b49.ctex"]
 
 [params]
 

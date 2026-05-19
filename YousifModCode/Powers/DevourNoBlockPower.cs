@@ -12,7 +12,7 @@ namespace YousifMod.YousifModCode.Powers;
 /// <summary>
 /// Permanent no-block downside applied by DevourCard.
 /// </summary>
-public class DevourNoBlockPower : CustomPowerModel
+public abstract class DevourNoBlockPower : CustomPowerModel
 {
     public override string CustomPackedIconPath => "power.png".PowerImagePath();
     public override string CustomBigIconPath => "power.png".BigPowerImagePath();

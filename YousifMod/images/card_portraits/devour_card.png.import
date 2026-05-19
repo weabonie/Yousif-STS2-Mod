@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bitae6ikwud6s"
-path="res://.godot/imported/devour_card.png-6eb5ba3907eb6b91a35678621498de63.ctex"
+path="res://.godot/imported/devour_card.png-a42a57403065f0ec6cdb4eaa5dbf7125.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://FirstMod/images/card_portraits/devour_card.png"
-dest_files=["res://.godot/imported/devour_card.png-6eb5ba3907eb6b91a35678621498de63.ctex"]
+source_file="res://YousifMod/images/card_portraits/devour_card.png"
+dest_files=["res://.godot/imported/devour_card.png-a42a57403065f0ec6cdb4eaa5dbf7125.ctex"]
 
 [params]
 
