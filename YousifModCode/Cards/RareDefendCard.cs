@@ -1,0 +1,29 @@
+using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.ValueProps;
+using YousifMod.YousifModCode.Character;
+
+namespace YousifMod.YousifModCode.Cards;
+
+[Pool(typeof(YousifCharacterCardPool))]
+public class RareDefendCard() : YousifModCard(2, CardType.Skill, CardRarity.Rare, TargetType.Self)
+{
+    public override bool GainsBlock => true;
+
+    protected override HashSet<CardTag> CanonicalTags => [CardTag.Defend];
+
+    protected override IEnumerable<DynamicVar> CanonicalVars =>
+    [
+        new BlockVar(16M, ValueProp.Move)
+    ];
+
+    protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
+    {
+        await CreatureCmd.GainBlock(Owner.Creature, DynamicVars.Block, play);
+    }
+
+    protected override void OnUpgrade() => DynamicVars.Block.UpgradeValueBy(5M);
+}
