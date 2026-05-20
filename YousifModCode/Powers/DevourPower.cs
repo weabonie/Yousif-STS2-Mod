@@ -13,9 +13,9 @@ namespace YousifMod.YousifModCode.Powers;
 /// <summary>
 /// Power applied by DevourCard. Its icons are loaded from this mod's resources.
 /// </summary>
-public abstract class DevourPower : CustomPowerModel
+public class DevourPower : CustomPowerModel
 {
-    // Loads from FirstMod/images/powers/devour.png, falling back to power.png if missing.
+    // Loads from YousifMod/images/powers/devour_power.png, falling back to power.png if missing.
     public override string CustomPackedIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".PowerImagePath();
     public override string CustomBigIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigPowerImagePath();
 
