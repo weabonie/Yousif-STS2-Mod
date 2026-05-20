@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73fe9481-91d2-4962-bf90-521a7abc5dfd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YousifMod/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/YousifMod/localization/eng/cards.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,16 +56,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.nuget/packages/krafs.publicizer/2.3.0/contentfiles/cs/any/Publicizer/IgnoresAccessChecksToAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/0b/16b0ac73/Silent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/26/23ad5022/Ironclad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/26/23ad5022/Ironclad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/4b/7315ae93/VakuuCardSelector.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/77/129d8277/Bash.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/77/129d8277/Bash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/7a/5d3e1c15/TheScythe.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/7d/7d3acf30/WhisperingEarring.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/85/b8bd7bbf/Vakuu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/8c/0159672a/StrikeIronclad.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/98/eb3596f9/DefendIronclad.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/8c/0159672a/StrikeIronclad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/98/eb3596f9/DefendIronclad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/a7/1bf2d585/Feed.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/d6/8e377618/BurningBlood.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/d6/8e377618/BurningBlood.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/YousifMod/localization/eng/characters.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
@@ -161,7 +162,7 @@
       <updated>1779183201530</updated>
       <workItem from="1779183203497" duration="1741000" />
       <workItem from="1779185469188" duration="16725000" />
-      <workItem from="1779311472888" duration="3982000" />
+      <workItem from="1779311472888" duration="5595000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up cards">
       <option name="closed" value="true" />
@@ -195,7 +196,31 @@
       <option name="project" value="LOCAL" />
       <updated>1779315340576</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated cards">
+      <option name="closed" value="true" />
+      <created>1779316039572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779316039572</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated cards.json">
+      <option name="closed" value="true" />
+      <created>1779316050837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1779316050837</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added placeholder cards">
+      <option name="closed" value="true" />
+      <created>1779316105126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1779316105126</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +245,10 @@
     <MESSAGE value="Setting up character template for Yousif" />
     <MESSAGE value="Added placeholder character and relics" />
     <MESSAGE value="Fixed new strike and defend cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed new strike and defend cards" />
+    <MESSAGE value="Updated cards" />
+    <MESSAGE value="updated cards.json" />
+    <MESSAGE value="Added placeholder cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added placeholder cards" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

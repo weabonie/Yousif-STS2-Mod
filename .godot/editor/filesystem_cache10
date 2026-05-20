@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1779224646
+::res://::1779317262
 AGENTS.md::TextFile::-1::1779224646::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1779183192::0::1::::<><><>0<>0<><>::
 YousifMod.json::JSON::-1::1779183221::0::1::::<><><>0<>0<><>::
@@ -37,7 +37,7 @@ relic.png::CompressedTexture2D::4761605537721495731::1779183490::1779183543::1::
 ::res://YousifMod/localization/::1779183190
 ::res://YousifMod/localization/eng/::1779222081
 ancients.json::JSON::-1::1779220737::0::1::::<><><>0<>0<><>::
-cards.json::JSON::-1::1779315756::0::1::::<><><>0<>0<><>::
+cards.json::JSON::-1::1779317660::0::1::::<><><>0<>0<><>::
 card_keywords.json::JSON::-1::1779183191::0::1::::<><><>0<>0<><>::
 characters.json::JSON::-1::1779222081::0::1::::<><><>0<>0<><>::
 powers.json::JSON::-1::1779185607::0::1::::<><><>0<>0<><>::
@@ -45,7 +45,7 @@ relics.json::JSON::-1::1779234028::0::1::::<><><>0<>0<><>::
 static_hover_tips.json::JSON::-1::1779183191::0::1::::<><><>0<>0<><>::
 ::res://YousifModCode/::1779220243
 MainFile.cs::CSharpScript::1780725140433240947::1779183209::0::1::::<><><>0<>0<><>::
-::res://YousifModCode/Cards/::1779316042
+::res://YousifModCode/Cards/::1779316069
 CommonAttackCard.cs::CSharpScript::4571357925926605810::1779316042::0::1::::<><><>0<>0<><>::
 CommonDebuffCard.cs::CSharpScript::897057213217603244::1779316042::0::1::::<><><>0<>0<><>::
 CommonDefendCard.cs::CSharpScript::8717407643765358425::1779316042::0::1::::<><><>0<>0<><>::
