@@ -4,7 +4,7 @@ using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Character;
 
-public abstract class YousifCharacterRelicPool : CustomRelicPoolModel
+public class YousifCharacterRelicPool : CustomRelicPoolModel
 {
     public override Color LabOutlineColor => YousifCharacter.Color;
 

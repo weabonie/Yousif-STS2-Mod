@@ -4,7 +4,7 @@ using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Character;
 
-public abstract class YousifCharacterPotionPool : CustomPotionPoolModel
+public class YousifCharacterPotionPool : CustomPotionPoolModel
 {
     public override Color LabOutlineColor => YousifCharacter.Color;
 

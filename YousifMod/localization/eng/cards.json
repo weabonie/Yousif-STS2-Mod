@@ -1,6 +1,10 @@
 {
+  "YOUSIFMOD-DEFEND_YOUSIF.title": "Defend",
+  "YOUSIFMOD-DEFEND_YOUSIF.description": "Gain {Block:diff()} [gold]Block[/gold].",
   "YOUSIFMOD-DEVOUR_CARD.title": "Devour",
   "YOUSIFMOD-DEVOUR_CARD.description": "Whenever an Attack deals unblocked damage, heal {Heal:diff()} HP.\nYou can no longer gain [gold]Block[/gold] from cards.",
   "YOUSIFMOD-GLUTTON_CARD.title": "Glutton",
-  "YOUSIFMOD-GLUTTON_CARD.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], permanently increase this card's damage by {Increase:diff()}."
+  "YOUSIFMOD-GLUTTON_CARD.description": "Deal {Damage:diff()} damage.\nIf [gold]Fatal[/gold], permanently increase this card's damage by {Increase:diff()}.",
+  "YOUSIFMOD-STRIKE_YOUSIF.title": "Strike",
+  "YOUSIFMOD-STRIKE_YOUSIF.description": "Deal {Damage:diff()} damage."
 }

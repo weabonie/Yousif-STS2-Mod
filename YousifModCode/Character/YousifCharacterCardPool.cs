@@ -4,7 +4,7 @@ using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Character;
 
-public abstract class YousifCharacterCardPool : CustomCardPoolModel
+public class YousifCharacterCardPool : CustomCardPoolModel
 {
     public override string Title => YousifCharacter.CharacterId; //This is not a display name.
 

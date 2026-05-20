@@ -3,39 +3,39 @@ using BaseLib.Utils.NodeFactories;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Characters;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Cards;
-using MegaCrit.Sts2.Core.Models.Relics;
+using YousifMod.YousifModCode.Cards;
 using YousifMod.YousifModCode.Extensions;
+using YousifMod.YousifModCode.Relics;
 
 namespace YousifMod.YousifModCode.Character;
 
-public abstract class YousifCharacter : PlaceholderCharacterModel
+public class YousifCharacter : PlaceholderCharacterModel
 {
     public const string CharacterId = "YousifCharacter";
 
     public static readonly Color Color = new("ffffff");
 
     public override Color NameColor => Color;
-    public override CharacterGender Gender => CharacterGender.Neutral;
-    public override int StartingHp => 70;
+    public override CharacterGender Gender => CharacterGender.Masculine;
+    public override int StartingHp => 80;
 
     public override IEnumerable<CardModel> StartingDeck =>
     [
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<StrikeIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>(),
-        ModelDb.Card<DefendIronclad>()
+        ModelDb.Card<StrikeYousif>(),
+        ModelDb.Card<StrikeYousif>(),
+        ModelDb.Card<StrikeYousif>(),
+        ModelDb.Card<StrikeYousif>(),
+        ModelDb.Card<StrikeYousif>(),
+        ModelDb.Card<DefendYousif>(),
+        ModelDb.Card<DefendYousif>(),
+        ModelDb.Card<DefendYousif>(),
+        ModelDb.Card<DefendYousif>(),
+        ModelDb.Card<DefendYousif>()
     ];
 
     public override IReadOnlyList<RelicModel> StartingRelics =>
     [
-        ModelDb.Relic<BurningBlood>()
+        ModelDb.Relic<YousifAiRelic>()
     ];
 
     public override CardPoolModel CardPool => ModelDb.CardPool<YousifCharacterCardPool>();
