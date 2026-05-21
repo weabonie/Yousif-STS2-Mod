@@ -10,10 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fe9481-91d2-4962-bf90-521a7abc5dfd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YousifMod/localization/eng/cards.json" beforeDir="false" afterPath="$PROJECT_DIR$/YousifMod/localization/eng/cards.json" afterDir="false" />
-    </list>
+    <list default="true" id="73fe9481-91d2-4962-bf90-521a7abc5dfd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +55,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/0b/16b0ac73/Silent.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/26/23ad5022/Ironclad.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/4b/7315ae93/VakuuCardSelector.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/5f/9e74e4ca/DemonForm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/6e/eb189775/RelicModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/77/129d8277/Bash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/7a/5d3e1c15/TheScythe.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623673a32f6a4e15a5604f44f22978678a2200/7d/7d3acf30/WhisperingEarring.cs" root0="SKIP_HIGHLIGHTING" />
@@ -162,7 +161,7 @@
       <updated>1779183201530</updated>
       <workItem from="1779183203497" duration="1741000" />
       <workItem from="1779185469188" duration="16725000" />
-      <workItem from="1779311472888" duration="5595000" />
+      <workItem from="1779311472888" duration="9547000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up cards">
       <option name="closed" value="true" />
@@ -220,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779316105126</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Vulnerable text fixed">
+      <option name="closed" value="true" />
+      <created>1779317834242</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779317834242</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +255,8 @@
     <MESSAGE value="Updated cards" />
     <MESSAGE value="updated cards.json" />
     <MESSAGE value="Added placeholder cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added placeholder cards" />
+    <MESSAGE value="Vulnerable text fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vulnerable text fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
