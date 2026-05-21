@@ -12,11 +12,12 @@ namespace YousifMod.YousifModCode.Relics;
 /// </summary>
 public abstract class YousifModRelic : CustomRelicModel
 {
-    //YousifMod/images/relics
-    public override string PackedIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".RelicImagePath();
+    protected virtual string IconFileName => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png";
+    protected virtual string OutlineIconFileName => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png";
 
-    protected override string PackedIconOutlinePath =>
-        $"{Id.Entry.RemovePrefix().ToLowerInvariant()}_outline.png".RelicImagePath();
+    public override string PackedIconPath => IconFileName.RelicImagePath();
 
-    protected override string BigIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigRelicImagePath();
+    protected override string PackedIconOutlinePath => OutlineIconFileName.RelicImagePath();
+
+    protected override string BigIconPath => IconFileName.BigRelicImagePath();
 }

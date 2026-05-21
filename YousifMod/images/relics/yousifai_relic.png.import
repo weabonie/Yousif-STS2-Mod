@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csvwcw8w6ne60"
-path="res://.godot/imported/relic.png-c89bab243bedbc56f63a91633216a934.ctex"
+path="res://.godot/imported/yousifai_relic.png-608de2ee2029979918aa93c2f542b7f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://YousifMod/images/relics/relic.png"
-dest_files=["res://.godot/imported/relic.png-c89bab243bedbc56f63a91633216a934.ctex"]
+source_file="res://YousifMod/images/relics/yousifai_relic.png"
+dest_files=["res://.godot/imported/yousifai_relic.png-608de2ee2029979918aa93c2f542b7f5.ctex"]
 
 [params]
 

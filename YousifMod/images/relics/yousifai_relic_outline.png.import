@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b83s7hluo5c56"
-path="res://.godot/imported/relic.png-18f00bd350f893193b4399838c5e10fe.ctex"
+uid="uid://do76506o5y3yo"
+path="res://.godot/imported/yousifai_relic_outline.png-a74b8eb03acb465a5b06bc3d953f2759.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://YousifMod/images/relics/big/relic.png"
-dest_files=["res://.godot/imported/relic.png-18f00bd350f893193b4399838c5e10fe.ctex"]
+source_file="res://YousifMod/images/relics/yousifai_relic_outline.png"
+dest_files=["res://.godot/imported/yousifai_relic_outline.png-a74b8eb03acb465a5b06bc3d953f2759.ctex"]
 
 [params]
 

@@ -10,7 +10,23 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73fe9481-91d2-4962-bf90-521a7abc5dfd" name="Changes" comment="" />
+    <list default="true" id="73fe9481-91d2-4962-bf90-521a7abc5dfd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/YousifMod/images/relics/big/yousifai_relic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YousifMod/images/relics/yousifai_relic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Directory.Build.props" beforeDir="false" afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/big/relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/big/relic.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/YousifMod/images/relics/yousifai_relic.png.import" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/relic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/relic.png.import" beforeDir="false" afterPath="$PROJECT_DIR$/YousifMod/images/relics/big/yousifai_relic.png.import" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/relic_outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/images/relics/relic_outline.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifMod/localization/eng/relics.json" beforeDir="false" afterPath="$PROJECT_DIR$/YousifMod/localization/eng/relics.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifModCode/Relics/YousifAiRelic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YousifModCode/Relics/YousifAiRelic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YousifModCode/Relics/YousifModRelic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YousifModCode/Relics/YousifModRelic.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +256,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
