@@ -1,5 +1,5 @@
 {
   "YOUSIFMOD-YOUSIF_AI_RELIC.title": "Yousif AI",
-  "YOUSIFMOD-YOUSIF_AI_RELIC.description": "At the end of combat, heal {Heal:diff()} HP.",
-  "YOUSIFMOD-YOUSIF_AI_RELIC.flavor": "A placeholder intelligence with a strangely familiar appetite."
+  "YOUSIFMOD-YOUSIF_AI_RELIC.description": "Every 4 turns, gain 1 energy but Yousif AI plays for you.",
+  "YOUSIFMOD-YOUSIF_AI_RELIC.flavor": "I'll just Vibecode it."
 }

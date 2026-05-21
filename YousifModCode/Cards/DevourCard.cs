@@ -32,5 +32,5 @@ public class DevourCard() :
         await PowerCmd.Apply<DevourNoBlockPower>(Owner.Creature, 1M, Owner.Creature, this);
     }
 
-    protected override void OnUpgrade() => DynamicVars.Heal.UpgradeValueBy(2M);
+    protected override void OnUpgrade() => EnergyCost.UpgradeBy(-1);
 }
