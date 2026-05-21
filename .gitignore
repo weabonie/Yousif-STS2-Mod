@@ -4,3 +4,6 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 Directory.Build.props
+.godot/
+.idea/
+*.user
