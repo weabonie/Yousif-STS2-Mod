@@ -6,4 +6,6 @@ riderModule.iml
 Directory.Build.props
 .godot/
 .idea/
+.ai/
+megadot-4.5.1-m.13-windows-x86_64-llvm-editor-csharp/
 *.user
