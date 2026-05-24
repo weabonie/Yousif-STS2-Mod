@@ -1,18 +1,21 @@
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
-using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using MegaCrit.Sts2.Core.Random;
 using YousifMod.YousifModCode.Character;
+using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Cards;
 
 [Pool(typeof(YousifCharacterCardPool))]
 public class Chopped() : YousifModCard(2, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
+    public override string PortraitPath => "chopped_card.png".CardImagePath();
+    public override string CustomPortraitPath => "chopped_card.png".BigCardImagePath();
+
     private bool _isReplaying;
 
     protected override HashSet<CardTag> CanonicalTags => [];
