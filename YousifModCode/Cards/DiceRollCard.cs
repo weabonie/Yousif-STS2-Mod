@@ -6,12 +6,15 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
 using YousifMod.YousifModCode.Character;
+using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Cards;
 
 [Pool(typeof(YousifCharacterCardPool))]
 public class DiceRollCard() : YousifModCard(2, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
+    public override string PortraitPath => "dice_roll_card.png".CardImagePath();
+    public override string CustomPortraitPath => "dice_roll_card.png".BigCardImagePath();
     private const int MinDamage = 7;
     private const int MaxDamage = 15;
 

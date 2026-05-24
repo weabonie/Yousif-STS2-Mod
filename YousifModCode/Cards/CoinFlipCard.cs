@@ -6,12 +6,15 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Cards;
 using YousifMod.YousifModCode.Character;
+using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Cards;
 
 [Pool(typeof(YousifCharacterCardPool))]
 public class CoinFlipCard() : YousifModCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {
+    public override string PortraitPath => "coin_flip_card.png".CardImagePath();
+    public override string CustomPortraitPath => "coin_flip_card.png".BigCardImagePath();
     private const string EnergyMultiplierKey = "EnergyMultiplier";
     private const string MinCostKey = "MinCost";
     private const string MaxCostKey = "MaxCost";
