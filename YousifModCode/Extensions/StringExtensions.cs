@@ -1,4 +1,4 @@
-﻿using Godot;
+using Godot;
 
 namespace YousifMod.YousifModCode.Extensions;
 
@@ -73,4 +73,10 @@ public static class StringExtensions
     {
         return ResourcePath(MainFile.ResPath, "images", "charui", path);
     }
+
+    public static string CharacterScenePath(this string path)
+    {
+        return ResourcePath(MainFile.ResPath, "scenes", path);
+    }
 }
+
