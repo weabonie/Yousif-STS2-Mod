@@ -8,7 +8,7 @@
   "YOUSIFMOD-DEVOUR_NO_BLOCK_POWER.smartDescription": "You cannot gain [gold]Block[/gold] this combat.",
 
   "YOUSIFMOD-STOCK_MARKET_POWER.title": "Stock Market",
-  "YOUSIFMOD-STOCK_MARKET_POWER.description": "Every turn, accumulate Gold. Obtain upon winning the combat.",
+  "YOUSIFMOD-STOCK_MARKET_POWER.description": "Every turn, accumulate Gold. Obtain all upon winning the combat.",
   "YOUSIFMOD-STOCK_MARKET_POWER.smartDescription": "Every turn, accumulate [gold]{Amount}[/gold] Gold. (Accumulated: [gold]{AccumulatedGold}[/gold] Gold.)\nObtain upon winning the combat.",
 
   "NoBlockPower.name": "No Block",

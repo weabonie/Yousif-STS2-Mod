@@ -1,53 +1,60 @@
 using BaseLib.Abstracts;
 using BaseLib.Extensions;
+using BaseLib.Utils;
+using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
-using MegaCrit.Sts2.Core.Localization;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Rooms;
+using MegaCrit.Sts2.Core.Rewards;
+using MegaCrit.Sts2.Core.Saves.Runs;
+using System.Threading.Tasks;
 using YousifMod.YousifModCode.Extensions;
 
 namespace YousifMod.YousifModCode.Powers;
 
 /// <summary>
-/// Power applied by StockMarketCard. Accumulates gold every turn and obtains it on victory.
+/// Power applied by StockMarketCard.
 /// </summary>
 public class StockMarketPower : CustomPowerModel
 {
-    public override string CustomPackedIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".PowerImagePath();
-    public override string CustomBigIconPath => $"{Id.Entry.RemovePrefix().ToLowerInvariant()}.png".BigPowerImagePath();
+    public override string CustomPackedIconPath => "stock_market.png".PowerImagePath();
+    public override string CustomBigIconPath => "stock_market.png".BigPowerImagePath();
 
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Counter;
 
-    public int AccumulatedGold { get; set; } = 0;
+    private decimal _accumulatedGold;
 
-    public override LocString Description
+    [SavedProperty]
+    public decimal AccumulatedGold
     {
-        get
+        get => _accumulatedGold;
+        set
         {
-            var desc = base.Description;
-            desc.Add("AccumulatedGold", (decimal)AccumulatedGold);
-            return desc;
+            AssertMutable();
+            _accumulatedGold = value;
         }
     }
 
-    public override Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, MegaCrit.Sts2.Core.Entities.Players.Player player)
+    public override async Task AfterSideTurnStart(CombatSide side, CombatState combatState)
     {
-        if (player.Creature != Owner)
-            return Task.CompletedTask;
+        if (side != Owner.Side)
+            return;
 
+        Flash();
         AccumulatedGold += Amount;
-        return Task.CompletedTask;
     }
 
-    public override async Task AfterCombatVictory(CombatRoom room)
+    public override async Task AfterCombatEnd(CombatRoom room)
     {
-        if (Owner.IsPlayer && Owner.Player != null && AccumulatedGold > 0)
+        if (AccumulatedGold > 0 && Owner.Player != null)
         {
-            await PlayerCmd.GainGold(AccumulatedGold, Owner.Player, false);
+            Flash();
+            room.AddExtraReward(Owner.Player, new GoldReward((int)AccumulatedGold, Owner.Player));
+            AccumulatedGold = 0;
         }
     }
 }

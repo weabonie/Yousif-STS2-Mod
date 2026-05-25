@@ -27,7 +27,7 @@
   "YOUSIFMOD-UNCOMMON_DEBUFF_CARD.description": "Deal {Damage:diff()} damage.\nApply {VulnerablePower:diff()} [gold]Vulnerable[/gold].",
 
   "YOUSIFMOD-STOCK_MARKET_CARD.title": "Stock Market",
-  "YOUSIFMOD-STOCK_MARKET_CARD.description": "Every turn, accumulate {GoldPerTurn:diff()} [gold]Gold[/gold]. Obtain upon winning the combat.",
+  "YOUSIFMOD-STOCK_MARKET_CARD.description": "Every turn, accumulate {GoldPerTurn:diff()} [gold]Gold[/gold].",
 
   "YOUSIFMOD-DICE_ROLL_CARD.title": "Dice Roll",
   "YOUSIFMOD-DICE_ROLL_CARD.description": "Deal 7-15 damage.\nIf this card is autoplayed, deal 15 damage instead.",
